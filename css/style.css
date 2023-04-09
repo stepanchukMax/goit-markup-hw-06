@@ -691,6 +691,7 @@ img {
     background-color: #FCFCFC;
     transition: transform var(--transition-dur-func);
     padding: 24px;
+    border-radius: 4px;
 }
 
 .backdrop.is-hidden .modal{
@@ -703,7 +704,7 @@ img {
 }
 
 .modal-close-btn {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E7E9FC;
@@ -745,6 +746,14 @@ img {
 
 .modal-field{
     margin-bottom: 8px;
+}
+
+.modal-field:nth-child(4){
+    margin-bottom: 16px;
+}
+
+.modal-field:nth-child(5) {
+    margin-bottom: 24px;
 }
 
 .modal-title{
